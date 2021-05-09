@@ -4,7 +4,7 @@
 대회 출품작 아두이노 코드
 
 <p align="center">
-  <img width=500 src="https://user-images.githubusercontent.com/80872528/117563867-ace9cb80-b0e3-11eb-986c-f3c95858a61b.png">
+  <img width=700 src="https://user-images.githubusercontent.com/80872528/117563867-ace9cb80-b0e3-11eb-986c-f3c95858a61b.png">
 </p>
 
 ### 나의 역할
