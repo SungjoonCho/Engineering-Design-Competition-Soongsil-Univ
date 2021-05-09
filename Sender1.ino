@@ -27,3 +27,33 @@ void loop(){
  Serial.print("2");
  }
  break;
+case 3: //불켜
+ for(i = 0; i < 3; i++){
+ irsend.sendSony(0xFFA25D,32);
+ delay(40);
+ }
+ Serial.print("불킴");
+ break;
+ case 4: //불
+ for(i = 0; i < 3; i++){
+ irsend.sendSony(0xFF629D,32);
+ delay(40);
+ }
+ Serial.print("불끔");
+ break;
+ case 5: //공기청정기를 켜
+ for(i = 0; i < 5; i++){
+ irsend.sendSony(0xFFE21D,32);
+ delay(40);
+ }
+ break;
+ case 6: //공기청정기를 꺼
+ for(i = 0; i < 5; i++){
+ irsend.sendSony(0xFF22DD,32);
+ delay(40);
+ }
+ break;
+ }
+ inputInt = 0;
+ delay(200);
+}
